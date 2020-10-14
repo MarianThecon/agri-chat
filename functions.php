@@ -10,8 +10,11 @@ function enqueue_parent_styles() {
 
 //Functie pentru includerea fisierelor
 $roots_includes = array(
-    //se adauga calea catre fiecare fisier
-    //'/folder/fisier.php',
+    //se adauga calea catre fiecare fisier  '/folder/fisier.php',
+    '/shortcodes/wfm_test.php',
+    '/shortcodes/categorii_fermieri.php',
+    '/cpt/fermieri.php',
+    '/custom-functions/sort_terms_hierarchally.php'
 
 );
 

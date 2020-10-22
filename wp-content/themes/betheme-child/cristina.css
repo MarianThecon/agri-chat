@@ -1,0 +1,331 @@
+/*Homepage*/
+
+.advRow p {
+     color: #c1c1c1;
+ }
+
+.advRow img {
+    max-height: 110px;
+    width: auto;
+}
+
+.overAdvSection img {
+    max-height: 365px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.overAdvSection .orangeOverlay img {
+    width: 60px;
+    height: 60px;
+    padding-bottom: 60px;
+}
+
+.overAdvSection .orangeOverlay {
+    padding: 40px 40px 70px 40px;
+    background-image: linear-gradient(rgba(255, 130, 0, 0.9), rgba(255, 130, 0, 0.9)), url(/wp-content/uploads/2020/10/12.fermier-galerie.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.overAdvSection {
+    margin-top: -65px;
+}
+
+.graySubtitle {
+    color: #cabdb1;
+}
+
+.centerTwoColumns .mcb-section-inner {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.lastHomeSection .firstCol img {
+    max-height: 90px;
+    width: auto;
+}
+
+.lastHomeSection .secondCol img {
+    border-radius: 10px;
+}
+
+.lastHomeSection .firstCol .column_attr {
+    border-radius: 10px;
+}
+
+.lastHomeSection {
+    max-height: 535px;
+}
+
+.lastHomeSection .secondCol p {
+    font-size: 24px;
+    text-align: center;
+    max-width: 230px;
+    margin: 0 auto;
+    font-weight: 500;
+    color: #0a0b0b;
+}
+
+/*Despre Agribusiness Chat*/
+
+div#aboutChatFirst h1 {
+    max-width: 670px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 80px;
+    line-height: 85px;
+}
+
+div#aboutChatFirst p {
+    color: #ededed;
+}
+
+div#aboutChatFirst span.number {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#aboutChatFirst p.title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#aboutChatFirst .counter.counter_horizontal.animate-math {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#aboutChatFirst .counter.counter_horizontal .desc_wrapper {
+    padding-left: 0px;
+}
+
+#aboutChatFirst .counter.counter_horizontal .icon_wrapper {
+    width: 75px;
+    height: 75px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin: 0 20px 0 0px;
+}
+
+#aboutChatFirst img {
+    width: auto;
+    max-width: 100%;
+    height: 100% !important;
+}
+
+/*Contact*/
+#contactMap iframe {
+    filter: grayscale(1);
+}
+
+#contactDetails a {
+    color: #979797;
+}
+
+#contactDetails a:hover {
+    color: #ff6000;
+    text-decoration: none;
+}
+
+#contactSocial a {
+    background: #ff6002;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+#contactSocial a:hover {
+    background: #151515;
+}
+
+
+#contactSocial i {
+    font-size: 28px;
+    color: #fff;
+    line-height: 20px;
+}
+
+#contactForm img {
+    max-width: 64px !important;
+    height: auto;
+}
+
+#contactForm h3 {
+    max-width: 200px;
+    padding-bottom: 30px;
+}
+
+#contactForm input::placeholder,
+#contactForm textarea,
+#contactForm input,
+#contactForm textarea{
+    font-size: 18px;
+    color: #858585;
+}
+
+input.wpcf7-submit {
+    color: #fff !important;
+}
+
+#contactForm input.wpcf7-submit {
+    color: #fff;
+}
+
+#contactForm input.wpcf7-submit:hover {
+    background-color: transparent;
+}
+
+.greenBlock .column_attr.clearfix {
+    height: 450px;
+    max-width: 280px;
+}
+
+/*Blog*/
+.blog_wrapper h2 {
+    font-family: "Yantramanav", sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.blog_wrapper .button-love {
+    display: none;
+}
+
+.blog_wrapper .post-links {
+    display: block;
+    width: 100%;
+    border: none !important;
+    padding: 0px !important;
+}
+
+.blog_wrapper .post-footer {
+    padding: 0px;
+    background: unset;
+}
+
+.blog_wrapper .post-links i {
+    display: none;
+}
+
+.blog_wrapper a.post-more {
+    background: #ff8200;
+    padding: 13px 28px;
+    border: 2px solid #ff8200;
+    display: inline-block;
+    line-height: 20px;
+    color: #fff;
+    font-weight: 500;
+    transition: 0.5s;
+    border-radius: 25px;
+    margin-left: 15px;
+}
+
+.blog_wrapper a.post-more:hover {
+    background: transparent;
+    border: 2px solid #ff8200;
+    color: #ff8200;
+    text-decoration: none;
+}
+
+.blog_wrapper .post-excerpt {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.blog_wrapper .post-desc {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.blog_wrapper .image_frame {
+    border: unset;
+}
+
+.blog_wrapper img {
+    max-height: 280px;
+    object-fit: cover;
+}
+
+.blog_wrapper .post-item {
+    padding-bottom: 20px;
+}
+
+.column.one.column_blog,
+.blog li.reset-inner.current-cat {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.blog .sections_group {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog .sections_group .extra_content {
+    order: 2;
+}
+
+.fileDetails .column_attr {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fileButton .column_attr a {
+    display: flex;
+    align-items: center;
+}
+
+.fileDetails h5 {
+    font-size: 28px;
+    letter-spacing: 0;
+}
+
+.fileDetails p {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.fileDetails .image_frame {
+    margin-right: 30px;
+}
+
+.fileButton a {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #202020;
+}
+
+.fileRow .mcb-wrap-inner {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fileButton img {
+    margin-left: 30px;
+}
+
+.fileRow .mcb-wrap-inner {
+    border-bottom: 3px solid #e4e4e4;
+}
+
+.fileRow .column {
+    margin-bottom: 20px !important;
+}
+
+.fileRow {
+    margin-top: 25px;
+}

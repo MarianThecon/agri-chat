@@ -5,9 +5,9 @@ Template: betheme
 
 @import "cristina.css";
 
-input, option {
-    color: #000 !important;
-}
+/*input, option {*/
+/*    color: #000 !important;*/
+/*}*/
 
 .collapsible {
     background-color: #777;
